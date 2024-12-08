@@ -1,0 +1,13 @@
+╔════════MovieSorter.MovieTests═════════╗
+╟──Movie.IsEmpty() should return false──╢
+> Input:    
+> Expected: False
+> Actual:   False
+╟────────────────Passed─────────────────╢
+╠═══════════════════════════════════════╣
+╠═════════════Test Summary══════════════╣
+Passed:
+> Movie.IsEmpty() should return false
+─────────────────────────────────────────
+Failed:
+╙─────────────1 / 1 passed──────────────╜

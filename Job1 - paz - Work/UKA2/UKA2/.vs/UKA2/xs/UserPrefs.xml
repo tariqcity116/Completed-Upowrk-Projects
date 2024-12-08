@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{50FD10A4-2DBD-46E8-ADFD-7576F255972E}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TextPositionMatch/TextPositionMatcher.cs">
+    <Files>
+      <File FileName="TextPositionMatch.Tests/TestPositionMatchTests.cs" Line="44" Column="21" />
+      <File FileName="TextPositionMatch/TextPositionMatcher.cs" Line="19" Column="14" />
+      <File FileName="TextPositionMatch/Program.cs" Line="21" Column="69" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UKA2" expanded="True">
+            <Node name="TextPositionMatch" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="TextPositionMatch.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="UKA2" expanded="True">
+            <Node name="TextPositionMatch.Tests" expanded="True">
+              <Node name="TextPositionMatch.Tests" expanded="True">
+                <Node name="TestPositionMatchTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TextPositionMatch PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

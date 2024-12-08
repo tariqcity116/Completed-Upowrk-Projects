@@ -1,0 +1,5 @@
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net5.0\TaskSorter.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net5.0\TaskSorter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net5.0\TaskSorter.AssemblyInfoInputs.cache
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net5.0\TaskSorter.AssemblyInfo.cs
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net5.0\TaskSorter.csproj.CoreCompileInputs.cache

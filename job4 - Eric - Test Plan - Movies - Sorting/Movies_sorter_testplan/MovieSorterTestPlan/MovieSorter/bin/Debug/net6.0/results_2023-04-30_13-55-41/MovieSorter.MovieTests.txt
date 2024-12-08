@@ -1,0 +1,20 @@
+╔══════════MovieSorter.MovieTests═══════════╗
+╟────Movie.IsEmpty() should return false────╢
+> Input:    
+> Expected: False
+> Actual:   False
+╟──────────────────Passed───────────────────╢
+╠═══════════════════════════════════════════╣
+╟──Movie.Insert(movie3) should return true──╢
+> Input:    Terminator
+> Expected: True
+> Actual:   True
+╟──────────────────Passed───────────────────╢
+╠═══════════════════════════════════════════╣
+╠═══════════════Test Summary════════════════╣
+Passed:
+> Movie.IsEmpty() should return false
+> Movie.Insert(movie3) should return true
+─────────────────────────────────────────────
+Failed:
+╙───────────────2 / 2 passed────────────────╜

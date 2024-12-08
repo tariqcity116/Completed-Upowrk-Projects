@@ -1,0 +1,15 @@
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.AssemblyInfoInputs.cache
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.AssemblyInfo.cs
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\bin\Debug\net6.0\TaskSorter.exe
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\bin\Debug\net6.0\TaskSorter.deps.json
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\bin\Debug\net6.0\TaskSorter.runtimeconfig.json
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\bin\Debug\net6.0\TaskSorter.dll
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\bin\Debug\net6.0\TaskSorter.pdb
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.dll
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\refint\TaskSorter.dll
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.pdb
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\TaskSorter.genruntimeconfig.cache
+D:\Tariq-private\work\Job 5 - Eric Second task - sorter\TaskSorter\TaskSorter\TaskSorter\obj\Debug\net6.0\ref\TaskSorter.dll

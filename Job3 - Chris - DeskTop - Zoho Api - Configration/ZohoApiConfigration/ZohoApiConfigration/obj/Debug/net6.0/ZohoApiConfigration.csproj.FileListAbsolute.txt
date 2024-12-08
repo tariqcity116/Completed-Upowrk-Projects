@@ -1,0 +1,17 @@
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\bin\Debug\net6.0\ZohoApiConfigration.exe
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\bin\Debug\net6.0\ZohoApiConfigration.deps.json
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\bin\Debug\net6.0\ZohoApiConfigration.runtimeconfig.json
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\bin\Debug\net6.0\ZohoApiConfigration.dll
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\bin\Debug\net6.0\ZohoApiConfigration.pdb
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.AssemblyInfoInputs.cache
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.AssemblyInfo.cs
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.csproj.CopyComplete
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.dll
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\refint\ZohoApiConfigration.dll
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.pdb
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ZohoApiConfigration.genruntimeconfig.cache
+D:\Tariq-private\work\Job3 - Chris - DeskTop - Zoho Api - Configration\ZohoApiConfigration\ZohoApiConfigration\obj\Debug\net6.0\ref\ZohoApiConfigration.dll

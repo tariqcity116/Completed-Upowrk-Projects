@@ -1,0 +1,8 @@
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\bin\test-wcf-soap.dll.config
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\bin\test-wcf-soap.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\bin\test-wcf-soap.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\obj\Debug\test-wcf-soap.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\obj\Debug\test-wcf-soap.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\obj\Debug\test-wcf-soap.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\obj\Debug\test-wcf-soap.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\test-wcf-soap\test-wcf-soap\bin\wcf2.wsdl

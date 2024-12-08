@@ -1,0 +1,7 @@
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\Martin-Soap-WCF\Martin-Soap-WCF\bin\Martin-Soap-WCF.dll.config
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\Martin-Soap-WCF\Martin-Soap-WCF\bin\Martin-Soap-WCF.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\Martin-Soap-WCF\Martin-Soap-WCF\bin\Martin-Soap-WCF.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\Martin-Soap-WCF\Martin-Soap-WCF\obj\Debug\Martin-Soap-WCF.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\Martin-Soap-WCF\Martin-Soap-WCF\obj\Debug\Martin-Soap-WCF.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\Martin-Soap-WCF\Martin-Soap-WCF\obj\Debug\Martin-Soap-WCF.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\Martin-Soap-WCF\Martin-Soap-WCF\obj\Debug\Martin-Soap-WCF.pdb

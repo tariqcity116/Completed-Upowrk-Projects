@@ -1,0 +1,111 @@
+╔═══════════MovieSorter.MovieTests═══════════╗
+╟────Movie.IsEmpty() should return false─────╢
+> Input:    
+> Expected: False
+> Actual:   False
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.Insert(movie3) should return true───╢
+> Input:    Terminator
+> Expected: True
+> Actual:   True
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.CompareTo(movie2) should return 1───╢
+> Input:    The Godfather
+> Expected: 1
+> Actual:   1
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.CompareTo(movie2) should return 0───╢
+> Input:    The Godfather
+> Expected: 0
+> Actual:   0
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.CompareTo(movie2) should return -1──╢
+> Input:    The Shawshank Redemption
+> Expected: -1
+> Actual:   -1
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.Insert(movie1) should return false──╢
+> Input:    The Shawshank Redemption
+> Expected: False
+> Actual:   False
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟───Movie.ToString() should return string────╢
+> Input:    
+> Expected: Title: The Shawshank Redemption, Genre: Drama, Classification: PG, Duration: 90, Available Copies: 1, Total Copies: 1
+> Actual:   Title: The Shawshank Redemption, Genre: Drama, Classification: PG, Duration: 90, Available Copies: 1, Total Copies: 1
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.Delete(movie1) should return true───╢
+> Input:    
+> Expected: True
+> Actual:   True
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.Search(moviename) should return 1───╢
+> Input:    The Godfather
+> Expected: 1
+> Actual:   0
+╟───────────────────Failed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──Movie.Search(movieName) should return 0───╢
+> Input:    The Godfather
+> Expected: 0
+> Actual:   0
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟───────Movie.NoDVDs() should return 1───────╢
+> Input:    
+> Expected: 1
+> Actual:   3
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟────Movie.ToArray() should return number────╢
+> Input:    
+> Expected: 
+> Actual:   2
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟───────Movie.NoDVDs() should return 0───────╢
+> Input:    
+> Expected: 0
+> Actual:   0
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟──────Movie.ToArray() should return 0───────╢
+> Input:    
+> Expected: 0
+> Actual:   0
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╟─────Movie.IsEmpty() should return true─────╢
+> Input:    
+> Expected: True
+> Actual:   True
+╟───────────────────Passed───────────────────╢
+╠════════════════════════════════════════════╣
+╠════════════════Test Summary════════════════╣
+Passed:
+> Movie.IsEmpty() should return false
+> Movie.Insert(movie3) should return true
+> Movie.CompareTo(movie2) should return 1
+> Movie.CompareTo(movie2) should return 0
+> Movie.CompareTo(movie2) should return -1
+> Movie.Insert(movie1) should return false
+> Movie.ToString() should return string
+> Movie.Delete(movie1) should return true
+> Movie.Search(movieName) should return 0
+> Movie.NoDVDs() should return 1
+> Movie.ToArray() should return number
+> Movie.NoDVDs() should return 0
+> Movie.ToArray() should return 0
+> Movie.IsEmpty() should return true
+──────────────────────────────────────────────
+Failed:
+> Movie.Search(moviename) should return 1
+╙───────────────14 / 15 passed───────────────╜

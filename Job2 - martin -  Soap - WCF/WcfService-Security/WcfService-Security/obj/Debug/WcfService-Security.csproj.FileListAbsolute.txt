@@ -1,0 +1,7 @@
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WcfService-Security\WcfService-Security\bin\WcfService-Security.dll.config
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WcfService-Security\WcfService-Security\bin\WcfService-Security.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WcfService-Security\WcfService-Security\bin\WcfService-Security.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WcfService-Security\WcfService-Security\obj\Debug\WcfService-Security.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WcfService-Security\WcfService-Security\obj\Debug\WcfService-Security.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WcfService-Security\WcfService-Security\obj\Debug\WcfService-Security.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WcfService-Security\WcfService-Security\obj\Debug\WcfService-Security.pdb

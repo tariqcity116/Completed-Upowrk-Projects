@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NvxVlLReFPZDJCUwDLlLLxsXQrhn2lr54GTw6YR+8Fw86NHjTogSi4oWx3t0A+sVM7fjAAOfLQDYBMv4w01bhA==",
+  "success": true,
+  "projectFilePath": "D:\\Tariq-private\\work\\Job3 - Chris - DeskTop - Zoho Api - Configration\\ZohoApiConfigration\\ZohoApiConfigration\\ZohoApiConfigration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MuhammadTariq\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

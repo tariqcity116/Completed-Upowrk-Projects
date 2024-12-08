@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<configurations>
+		<ConfigSection>
+			<section name="My-Text-File" type="Text-file"/>
+			<section name="Xerox-File" type="Json-file"/>
+			<section name="Agfa-File" type="Xml-file"/>
+			<section name="Going-To-Delete-File" type="Text-file"/>
+		</ConfigSection>
+		<appset>
+			<add key="NewKey" value="123453"/>
+			<add key="SecondKey" value="678951"/>
+			<add key="ThirdKey" value="535345"/>
+		</appset>
+	</configurations>
+</Configuration>

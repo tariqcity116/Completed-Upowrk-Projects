@@ -1,0 +1,23 @@
+To do the above task if your dotnet-monitor is deployed on Cloud9 IDE, you can use the following steps:
+
+Open the dotnet-monitor configuration file. The default location of the configuration file is ~/.dotnet/monitor/config.json.
+In the configuration file, add the following section:
+"s3": {
+    "bucket": "my-bucket",
+    "region": "us-east-1"
+}
+Replace my-bucket with the name of your S3 bucket and us-east-1 with the region of your S3 bucket.
+Save the configuration file.
+Once you have saved the configuration file, dotnet-monitor will start downloading dump and trace files to your S3 bucket.
+
+Here are the steps on how to open and edit the dotnet-monitor configuration file on Cloud9 IDE:
+
+Open the Cloud9 IDE.
+In the file explorer, navigate to the directory where dotnet-monitor is deployed.
+Right-click on the config.json file and select "Open".
+The config.json file will open in the Cloud9 IDE editor.
+Add the s3 section to the configuration file.
+Save the configuration file.
+Once you have saved the configuration file, dotnet-monitor will start downloading dump and trace files to your S3 bucket.
+
+I hope this helps! Let me know if you have any other questions.

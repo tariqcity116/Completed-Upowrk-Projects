@@ -1,0 +1,16 @@
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.AssemblyInfoInputs.cache
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.AssemblyInfo.cs
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\bin\Debug\net5.0\AgentGoalMatrix.exe
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\bin\Debug\net5.0\AgentGoalMatrix.deps.json
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\bin\Debug\net5.0\AgentGoalMatrix.runtimeconfig.json
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\bin\Debug\net5.0\AgentGoalMatrix.runtimeconfig.dev.json
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\bin\Debug\net5.0\AgentGoalMatrix.dll
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\bin\Debug\net5.0\AgentGoalMatrix.pdb
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.dll
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\refint\AgentGoalMatrix.dll
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.pdb
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\AgentGoalMatrix.genruntimeconfig.cache
+D:\Tariq-private\work\Job10\AgentGoalMatrix\AgentGoalMatrix\obj\Debug\net5.0\ref\AgentGoalMatrix.dll

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://webservice.telemetry.udo.fors.ru/" xmlns:s2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://webservice.telemetry.udo.fors.ru/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://webservice.telemetry.udo.fors.ru/">
+      <s:import />
+      <s:element name="storeTelemetryList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="unbounded" ref="telemetryWithDetails" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="storeTelemetryListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="storeTelemetryListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified">
+      <s:element name="telemetryWithDetails" nillable="true" type="TelemetryWithDetails" />
+      <s:complexType name="TelemetryWithDetails">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="telemetry" type="Telemetry" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="telemetryDetails" type="TelemetryDetails" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Telemetry">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="coordX" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="coordY" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="date" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="glonass" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="gpsCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="speed" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TelemetryDetails">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sensorCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="value" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <s:element name="Security" type="s2:Security" />
+      <s:complexType name="Security">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UsernameToken" type="s2:UsernameToken" />
+        </s:sequence>
+        <s:attribute name="MustUnderstand" type="s:string" />
+        <s:anyAttribute />
+      </s:complexType>
+      <s:complexType name="UsernameToken">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="storeTelemetryListSoapIn">
+    <wsdl:part name="parameters" element="tns:storeTelemetryList" />
+  </wsdl:message>
+  <wsdl:message name="storeTelemetryListSoapOut">
+    <wsdl:part name="parameters" element="tns:storeTelemetryListResponse" />
+  </wsdl:message>
+  <wsdl:message name="storeTelemetryListSecurity">
+    <wsdl:part name="Security" element="s2:Security" />
+  </wsdl:message>
+  <wsdl:portType name="SoapSampleServiceSoap">
+    <wsdl:operation name="storeTelemetryList">
+      <wsdl:input message="tns:storeTelemetryListSoapIn" />
+      <wsdl:output message="tns:storeTelemetryListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SoapSampleServiceSoap" type="tns:SoapSampleServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="storeTelemetryList">
+      <soap:operation soapAction="http://webservice.telemetry.udo.fors.ru/storeTelemetryList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:storeTelemetryListSecurity" part="Security" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:storeTelemetryListSecurity" part="Security" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SoapSampleServiceSoap12" type="tns:SoapSampleServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="storeTelemetryList">
+      <soap12:operation soapAction="http://webservice.telemetry.udo.fors.ru/storeTelemetryList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:storeTelemetryListSecurity" part="Security" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:storeTelemetryListSecurity" part="Security" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SoapSampleService">
+    <wsdl:port name="SoapSampleServiceSoap" binding="tns:SoapSampleServiceSoap">
+      <soap:address location="http://10.31.38.228:89/soapsampleservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SoapSampleServiceSoap12" binding="tns:SoapSampleServiceSoap12">
+      <soap12:address location="http://10.31.38.228:89/soapsampleservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

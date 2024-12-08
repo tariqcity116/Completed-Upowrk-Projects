@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <person id="1">
+        <name>John Doe</name>
+        <age>30</age>
+        <address>
+            <city>New York</city>
+            <zipcode>10001</zipcode>
+        </address>
+        <hobbies>
+            <hobby>
+                <name>Sports</name>
+                <frequency>weekly</frequency>
+            </hobby>
+            <hobby>
+                <name>Reading</name>
+                <frequency>daily</frequency>
+            </hobby>
+        </hobbies>
+    </person>
+    <person id="2">
+        <name>Jane Smith</name>
+        <age>25</age>
+        <address>
+            <city>Los Angeles</city>
+            <zipcode>90001</zipcode>
+        </address>
+        <hobbies>
+            <hobby>
+                <name>Traveling</name>
+                <frequency>monthly</frequency>
+            </hobby>
+            <hobby>
+                <name>Cooking</name>
+                <frequency>weekly</frequency>
+            </hobby>
+        </hobbies>
+    </person>
+    <person id="3">
+        <name>Michael Johnson</name>
+        <age>40</age>
+        <address>
+            <city>Chicago</city>
+            <zipcode>60601</zipcode>
+        </address>
+        <hobbies>
+            <hobby>
+                <name>Painting</name>
+                <frequency>daily</frequency>
+            </hobby>
+            <hobby>
+                <name>Gardening</name>
+                <frequency>weekly</frequency>
+            </hobby>
+        </hobbies>
+    </person>
+</root>

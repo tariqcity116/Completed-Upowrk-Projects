@@ -1,0 +1,29 @@
+string myString = "Hello World";
+string subString = "or";
+int subStringIndex = 0;
+
+for (int i = 0; i < myString.Length; i++)
+{
+    if (myString[i] == subString[subStringIndex])
+    {
+        if (subStringIndex == subString.Length - 1)
+        {
+            int index = i - subString.Length + 1;
+            Console.WriteLine("Substring '" + subString + "' found at index " + index);
+            subStringIndex = 0;
+        }
+        else
+        {
+            subStringIndex++;
+        }
+    }
+    else
+    {
+        subStringIndex = 0;
+    }
+    
+    if (subStringIndex == 1 && i < myString.Length - 1 && myString[i + 1] == subString[1])
+    {
+        subStringIndex++;
+    }
+}

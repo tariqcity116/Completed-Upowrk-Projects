@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Tariq-private\\work\\Job 5 - Eric Second task - sorter\\TaskSorter\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail.csproj": {}
+  },
+  "projects": {
+    "D:\\Tariq-private\\work\\Job 5 - Eric Second task - sorter\\TaskSorter\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tariq-private\\work\\Job 5 - Eric Second task - sorter\\TaskSorter\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail.csproj",
+        "projectName": "Job6-ExtractLinkFromEmail",
+        "projectPath": "D:\\Tariq-private\\work\\Job 5 - Eric Second task - sorter\\TaskSorter\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail.csproj",
+        "packagesPath": "C:\\Users\\MuhammadTariq\\.nuget\\packages\\",
+        "outputPath": "D:\\Tariq-private\\work\\Job 5 - Eric Second task - sorter\\TaskSorter\\Job6-ExtractLinkFromEmail\\Job6-ExtractLinkFromEmail\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MuhammadTariq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.48, )"
+            },
+            "Mail.dll": {
+              "target": "Package",
+              "version": "[3.0.23156.1704, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "OpenPop": {
+              "target": "Package",
+              "version": "[2.0.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

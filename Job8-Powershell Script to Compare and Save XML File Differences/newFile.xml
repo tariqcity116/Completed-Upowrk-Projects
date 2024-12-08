@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<configurations>
+		<ConfigSection>
+			<section name="Your-Text-File" type="Text-file"/>
+			<section name="Fix-File" type="Json-file"/>
+			<section name="Kodak-File" type="Xml-file"/>
+		</ConfigSection>
+		<appset>
+			<add key="FirstKey" value="333453"/>
+			<add key="SecondKey" value="888951"/>
+			<add key="ThirdKey" value="555345"/>
+		</appset>
+	</configurations>
+	<authorisation>
+	<file name="totally new section" type="section"/>
+	</authorisation>
+</Configuration>

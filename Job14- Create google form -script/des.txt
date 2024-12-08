@@ -1,0 +1,59 @@
+We use Google Sheets for our attendance and corrective action tracking. To reduce the number of invalid entries and errors, I am looking to move the submission of this information into a user form and use Google App Scripts to have the information flow into the applicable spreadsheet. I have built the template for the forms and how the information should flow.
+I need someone familiar with how to use Google Sheets and building Scripts for user form and experience in App Scripts. Please only apply if you have experience. Previous examples of work must be included.
+After reviewing and interested please apply. If you find an alternative format that behaves the way we need it I am open to it. I would like to see a mock up if possible of the layout before beginning.
+
+Link to Google Sheets
+
+https://docs.google.com/spreadsheets/d/1u80UNxN0so84WfYTrk7UDeD7Z_WTUPtuhqzFh_5m0o0/edit?usp=sharing
+
+Project Needs:
+1) One Usable View Only UserForm (Attendance Look Up Tool)
+2) One User Form with ability to Save, Modify, Delete, or Clear
+3) Once data is entered into form it moves into the applicable sheet (s)
+
+Layout:
+1) Attendance Lookup (User Form to View Attendance/ Corrective Entry Data)
+2) Attendance/Correct Action Entry Tool
+3) Attendance Reasons (Data Validation Sheet for a drop down)
+4) Corrective Action Headers (Data Validation Sheet for drop down)
+5) Corrective Action (List of Corrective Action Entries)
+6) Attendance History (List of Attendance History Entries)
+7) Expired Attendance History (Table of Attendance Entries that have been past 90 days)
+
+Attendance Lookup User Form Expectations
+1) User Types in user Name and Clicks Search
+2) Employee Name Appears
+3) Attendance Points are Displayed
+a. This field must be able to access the attendance history sheet, find the agent name and calculate the total number of attendance points currently on their file. Our attendance policy is 90 days from the occurrence date the attendance entry rolls off and that point will be removed from file. Once the 90 days has occurred, the entry needs to be moved over to the expired Attendance history
+b. The background color needs to have conditional formatting based on number of points.
+i. 0 Points Green
+ii. 1 Point Yellow
+iii. 2 Point Orange
+iv. 3 Point Red
+4) Attendance Date History
+a. This section needs to pull from the Attendance History sheet the table applicable to the select agent. It needs to provide a list of active attendance entries to the agent. If they have expired, they are not to be included. Only entries where the roll off date has not been reached out.
+b. Mapping for the fields to include from the Attendance lookup and the Attendance History Sheet
+i. Occurrence date = Occurrence Date
+ii. Reason = Attendance Reason
+iii. Points Applied = Points Applied
+iv. Roll Off Date = Roll Off Date
+5) Corrective Action
+a. This section needs to pull from the corrective action sheet table based on the agent searched
+b. Mapping for the fields is the following:
+i. Infraction date = infraction date
+ii. Category = category
+iii. Level = level
+iv. Issuer = issuer
+v. Link = link
+Attendance & Corrective Action Entry Tool User Form Expectations
+1) User searches the Employee (Looks up Information from Roster Sheet)
+2) Employee Name below the Bold Line Populates with the Employee Searched
+3) The form can be used to enter an attendance entry, corrective action or both.
+4) The first group Employee Name, Occurrence Date, Reason, Points Applied, Roll Off Date, Comments once entered and save creates an entry onto the attendance points history sheet.
+a. Reason – Data validation needs to pull from attendance reasons sheet. Behavior is drop down
+b. Points Applied – Data validation from attendance reason sheet. Behavior is drop down
+c. The Occurrence Date – Needs to have a formula that auto populates the roll off date 90 days from that date. The Field Roll Off Date should show the date.
+5) Category, Level, Issuer, Infraction Link (user adds link to google form) create entry into Corrective Action Sheet
+a. Category – Data validation from Category Action Headers – Behavior is dropdown
+b. Level – Data validation from Category Action Headers – Behavior is dropdown
+c. Mapping - Infract

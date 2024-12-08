@@ -1,0 +1,2 @@
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\reactproject1\reactproject1\obj\Debug\reactproject1.esproj.SuggestedBindingRedirects.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\reactproject1\reactproject1\obj\Debug\reactproject1.esproj.CoreCompileInputs.cache

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:tns="http://webservice.telemetry.udo.fors.ru/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/">
+	<wsdl:types>
+		<s:schema elementFormDefault="qualified" targetNamespace="http://webservice.telemetry.udo.fors.ru/">
+			<s:import />
+			<s:element name="storeTelemetryList">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="1" maxOccurs="unbounded" ref="telemetryWithDetails" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="storeTelemetryListResponse">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="storeTelemetryListResult" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+		</s:schema>
+		<s:schema elementFormDefault="qualified">
+			<s:element name="telemetryWithDetails" nillable="true" type="TelemetryWithDetails" />
+			<s:complexType name="TelemetryWithDetails">
+				<s:sequence>
+					<s:element minOccurs="0" maxOccurs="1" name="telemetry" type="Telemetry" />
+					<s:element minOccurs="0" maxOccurs="unbounded" name="telemetryDetails" type="TelemetryDetails" />
+				</s:sequence>
+			</s:complexType>
+			<s:complexType name="Telemetry">
+				<s:sequence>
+					<s:element minOccurs="1" maxOccurs="1" name="coordX" type="s:double" />
+					<s:element minOccurs="1" maxOccurs="1" name="coordY" type="s:double" />
+					<s:element minOccurs="1" maxOccurs="1" name="date" type="s:dateTime" />
+					<s:element minOccurs="1" maxOccurs="1" name="glonass" type="s:int" />
+					<s:element minOccurs="0" maxOccurs="1" name="gpsCode" type="s:string" />
+					<s:element minOccurs="1" maxOccurs="1" name="speed" type="s:int" />
+				</s:sequence>
+			</s:complexType>
+			<s:complexType name="TelemetryDetails">
+				<s:sequence>
+					<s:element minOccurs="0" maxOccurs="1" name="sensorCode" type="s:string" />
+					<s:element minOccurs="1" maxOccurs="1" name="value" type="s:double" />
+				</s:sequence>
+			</s:complexType>
+		</s:schema>
+	</wsdl:types>
+	<wsdl:message name="IService1_storeTelemetryList_InputMessage">
+		<wsdl:part name="parameters" element="tns:storeTelemetryList" />
+	</wsdl:message>
+	<wsdl:message name="IService1_storeTelemetryList_OutputMessage">
+		<wsdl:part name="parameters" element="tns:storeTelemetryListResponse" />
+	</wsdl:message>
+	<wsdl:portType name="IService1">
+		<wsdl:operation name="storeTelemetryList">
+			<wsdl:input wsaw:Action="http://tempuri.org/IService1/storeTelemetryList" message="tns:IService1_storeTelemetryList_InputMessage" />
+			<wsdl:output wsaw:Action="http://tempuri.org/IService1/storeTelemetryListResponse" message="tns:IService1_storeTelemetryList_OutputMessage" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="storeTelemetryList">
+			<soap:operation soapAction="http://tempuri.org/IService1/storeTelemetryList" style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="Service1">
+		<wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+			<soap:address location="http://localhost:54572/Service1.svc" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

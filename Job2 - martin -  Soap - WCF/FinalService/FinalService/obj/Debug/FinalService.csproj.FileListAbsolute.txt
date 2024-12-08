@@ -1,0 +1,7 @@
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\FinalService\FinalService\bin\FinalService.dll.config
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\FinalService\FinalService\bin\FinalService.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\FinalService\FinalService\bin\FinalService.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\FinalService\FinalService\obj\Debug\FinalService.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\FinalService\FinalService\obj\Debug\FinalService.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\FinalService\FinalService\obj\Debug\FinalService.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\FinalService\FinalService\obj\Debug\FinalService.pdb

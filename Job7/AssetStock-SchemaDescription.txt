@@ -1,0 +1,56 @@
+Employees
+----------
+EmployeeID (PK)
+FirstName
+LastName
+Email
+Phone
+
+Assets
+----------
+AssetID (PK)
+AssetName
+AssetDescription
+EmployeeID (FK to Employees.EmployeeID)
+DateIssued
+
+Products
+----------
+ProductID (PK)
+ProductName
+ProductDescription
+Price
+Category
+
+Orders
+----------
+OrderID (PK)
+EmployeeID (FK to Employees.EmployeeID)
+ProductID (FK to Products.ProductID)
+OrderDate
+Quantity
+TotalAmount
+
+ProductHistory
+----------
+HistoryID (PK)
+ProductID (FK to Products.ProductID)
+EmployeeID (FK to Employees.EmployeeID)
+Action
+Date
+Description
+
+Stock
+----------
+StockID (PK)
+ProductID (FK to Products.ProductID)
+QuantityInStock
+DateAdded
+
+Bills
+----------
+BillID (PK)
+ProductID (FK to Products.ProductID)
+QuantityPurchased
+TotalAmount
+Date

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <person id="1">
+        <name>John Doe</name>
+        <age>31</age>
+        <address>
+            <city>New York</city>
+        </address>
+        <hobbies>
+            <hobby>
+                <name>Sports</name>
+                <frequency>daily</frequency>
+            </hobby>
+            <hobby>
+                <name>Reading</name>
+                <frequency>daily</frequency>
+            </hobby>
+            <hobby>
+                <name>Hiking</name>
+                <frequency>monthly</frequency>
+            </hobby>
+        </hobbies>
+    </person>
+    <!-- The person with id="2" has been removed -->
+    <person id="3">
+        <name>Mike Johnson</name>
+        <age>42</age>
+        <address>
+            <city>Chicago</city>
+            <zipcode>60601</zipcode>
+            <country>USA</country>
+        </address>
+        <hobbies>
+            <hobby>
+                <name>Reading</name>
+                <frequency>daily</frequency>
+            </hobby>
+            <hobby>
+                <name>Gardening</name>
+                <frequency>weekly</frequency>
+            </hobby>
+            <hobby>
+                <name>Hiking</name>
+                <frequency>monthly</frequency>
+            </hobby>
+        </hobbies>
+    </person>
+    <person id="4">
+        <name>Linda Williams</name>
+        <age>28</age>
+        <address>
+            <city>Miami</city>
+            <zipcode>33101</zipcode>
+        </address>
+        <hobbies>
+            <hobby>
+                <name>Dancing</name>
+                <frequency>weekly</frequency>
+                <location>Studio A</location>
+            </hobby>
+            <hobby>
+                <name>Cooking</name>
+                <frequency>weekly</frequency>
+            </hobby>
+            <hobby>
+                <name>Swimming</name>
+                <frequency>daily</frequency>
+                <location>Beach</location>
+            </hobby>
+        </hobbies>
+    </person>
+    
+    <!-- Additional nodes -->
+    <animal>
+        <species>Tiger</species>
+        <habitat>Forest</habitat>
+    </animal>
+    <animal>
+        <species>Dolphin</species>
+        <habitat>Ocean</habitat>
+    </animal>
+    
+    <trees>
+        <tree>
+            <name>Redwood</name>
+            <height>300 feet</height>
+        </tree>
+        <tree>
+            <name>Sequoia</name>
+            <height>250 feet</height>
+        </tree>
+    </trees>
+    
+    <!-- New node for cars -->
+    <cars>
+        <car>
+            <make>Toyota</make>
+            <model>Camry</model>
+            <year>2023</year>
+        </car>
+        <car>
+            <make>Honda</make>
+            <model>CR-V</model>
+            <year>2022</year>
+        </car>
+    </cars>
+</root>

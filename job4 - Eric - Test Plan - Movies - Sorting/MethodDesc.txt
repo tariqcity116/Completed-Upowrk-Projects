@@ -1,0 +1,15 @@
+1. Movie.IsEmpty()               			This method is used to check either movie collection has any movie
+2. Movie.Insert(movie3)        			This method is used to insert movie in movie collection 
+3. Movie.CompareTo(movie2) 	 (Greater)  	 This method compare the movie order in the list,  which should be at end.
+4. Movie.CompareTo(movie2)  	(Middle)  	 This method compare the movie order in the list,  which should be at middle.
+5. Movie.CompareTo(movie2)  	(less)   	This method compare the movie order in the list,  which should be at biggning.
+6. Movie.Insert(movie1)          			To check the insertion of movie.
+7. Movie.ToString()                 			 It arrange the movie description in a simple text.
+8. Movie.Delete(movie1)          			 It check the deletion of the movie from movie collection
+9. Movie.Search(moviename)    			It search the movie in the movie collection.
+10. Movie.Search(movieName) (Not Exist)  	 It search the movie and check if not exists.
+11. Movie.NoDVDs()                  			 It check the number of dvd available.
+12. Movie.ToArray()                     		It check the list of movie available in the movie collection.
+13. Movie.NoDVDs()                (Not Exist)         It check the number of dvd not available.
+14. Movie.ToArray()                (Not Exist)           It check the no list of movie available in the movie collection.
+15. Movie.IsEmpty()               (Not Exist)          This method is used to check either movie collection has no movie.

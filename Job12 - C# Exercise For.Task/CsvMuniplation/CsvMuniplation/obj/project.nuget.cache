@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6H/ffqXkLhpOGYCAMVN4ZHBKGJVkvBj1YISbB7qu4OxLi8cggf8FU4FotHkGUc2g2CXxXLFXW+bcXCvRAdeqVA==",
+  "success": true,
+  "projectFilePath": "D:\\Tariq-private\\work\\Job12\\CsvMuniplation\\CsvMuniplation\\CsvMuniplation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MuhammadTariq\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

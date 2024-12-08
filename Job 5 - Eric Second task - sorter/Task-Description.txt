@@ -1,0 +1,22 @@
+I have a need for a Task Sorter to manage a list of tasks. Some tasks are dependent on others, which 
+they cannot start until the pre-requisite task(s) is/are completed.  
+ (Note: tasks can be executed simultaneously / at the same time) 
+ 
+(Note: A Direct Acyclic Graph (DAG), can be particularly useful)  
+The information about the tasks and the dependencies among the tasks are stored in a text file. The 
+information about a task includes a task ID, which is a string, and the time needed to complete the 
+task, which is a positive integer, and a list of tasks that the task depends on. The information about 
+one task is stored in a separated line in the text file.  
+ (Note: text in brackets are for description purposes and not included in the actual text file)  
+An example text file: T1, 100    (T1 takes 100 units of time to complete) T2, 30, T1   (T2 takes 30 units of time to complete, but can’t start till T1 is complete) T3, 50, T2, T5  (T3 takes 50 units of time to complete, but can’t start till T2 & T5 are complete) T4, 90, T1, T7   (T4 takes 90 units of time to complete, but can’t start till T1 & T7 are complete) T5, 70, T2, T4   (T5 takes 70 units of time to complete, but can’t start till T2 & T4 are complete) T6, 55, T5   (T6 takes 55 units of time to complete, but can’t start till T5 is complete) T7, 50    (T7 takes 50 units of time to complete)  Features of the Application:  1.  Be in the form of a Microsoft Console Application with a command line menu allowing the user to do the following: a.  Ask the user to enter the name of a text file in which the information about the tasks in  a  project  and  the  dependencies  among  the  tasks  are  stored  and  read  the 
+information from the text file into the system.  b.  Add a new task with time needed to complete the task and other tasks that the task depends on into the project.  c.  Remove a task from the project.  d.  Change the time needed to be completed.  e.  Save the (updated) information about the tasks and dependencies back to the opened input text file. 
+
+Main Tasks:  1.  Find  the  sequence  of  the  tasks  that  does  not  violate  any  task  dependency  and  save  the sequence to a text file (named ‘Sequence.txt’).  
+ 
+For the above example, the content in Sequence.txt should look like:  
+ Sorted Order: T1, T7, T2, T4, T5, T3, T6 (Note: in the case of the same commencement time, the order would be in the order received)  2.  Find the earliest possible commencement time for each of the tasks and save the solution into a text file (named ‘EarliestTimes.txt’).  
+ (Note: text in brackets are for description purposes and not included in the actual text file) 
+ 
+(Note: the order of tasks should be the same as the original input file)  For the above example, the content in ‘EarliestTimes.txt’ should look like:  T1, 0   (Immediate commencement, 0 units of time) T2, 100    (Commence after T1 is complete, at 100 units of time) T3, 260  (Commence after T2 & T5 are complete, T5 starts at 190 units + 70 units to complete, 
+is longer than T2, which is 100 units + 30 units to complete) T4, 100    (Commence after T1 & T7 are complete, which ever is longer, T1 takes 100) T5, 190  (Commence after T2 & T4 are complete, T4 starts at 100 units + 90 units to complete, 
+is longer than T2, which is 100 units + 30 units to complete) T6, 260    (Commence after T5 is complete, T5 starts at 190 units + 70 units to complete) T7, 0  (Immediate commencement, 0 units of time)

@@ -1,0 +1,7 @@
+<Changes>
+<Change Type="AttributeChanged" FullPath="Configuration>configurations>ConfigSection" OldValue="<section name="My-Text-File" type="Text-file" , " NewValue="<section name="Your-Text-File" type="Text-file"/>
+<Change Type="AttributeChanged" correct result will look like this:
+<Changes>
+<Change Type="AttributeChanged" FullPath="Configuration>configurations>ConfigSection" OldValue="<section name="My-Text-File" type="Text-file" , " NewValue="<section name="Your-Text-File" type="Text-file"/>
+<Change Type="AttributeChanged" FullPath="Configuration>configurations>ConfigSection" OldValue="<section name="Xerox-File" type="Json-file" , " NewValue="<section name="Fix-File" type="Json-file" />
+<Change Type="AttributeChanged" FullPath="Configuration>configurations>ConfigSection" OldValue="<section name="Agfa-File" type="Xml-file" , " NewValue="<section name="Kodak-File" type="xml-file" />

@@ -1,0 +1,15 @@
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\bin\Debug\net6.0\ClassReader.exe
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\bin\Debug\net6.0\ClassReader.deps.json
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\bin\Debug\net6.0\ClassReader.runtimeconfig.json
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\bin\Debug\net6.0\ClassReader.dll
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\bin\Debug\net6.0\ClassReader.pdb
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.AssemblyInfoInputs.cache
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.AssemblyInfo.cs
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.dll
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\refint\ClassReader.dll
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.pdb
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ClassReader.genruntimeconfig.cache
+D:\Tariq-private\work\Job11\ClassReader\ClassReader\obj\Debug\net6.0\ref\ClassReader.dll

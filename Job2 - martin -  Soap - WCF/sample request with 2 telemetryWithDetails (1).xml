@@ -1,0 +1,49 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:web="http://webservices.wialon.com/"
+    xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+    xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1">
+            <wsse:UsernameToken>
+                <wsse:Username>abc</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">abc@1234#</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+        <web:storeTelemetryList xmlns="http://webservices.wialon.com/">
+            <telemetryWithDetails xmlns="">
+                <telemetry>
+                    <coordX>-57.9998893738</coordX>
+                    <coordY>-33.2944221497</coordY>
+                    <speed>102</speed>
+                    <date>2023-03-08T12:19:00Z</date>
+                    <glonass>0</glonass>
+                    <gpsCode>867604051108653</gpsCode>
+                </telemetry>
+                <telemetryDetails>
+                    <sensorCode>sensor45058</sensorCode>
+                    <value>13571683.4995</value>
+                </telemetryDetails>
+                <telemetryDetails>
+                    <sensorCode>sensor20480</sensorCode>
+                    <value>0</value>
+                </telemetryDetails>
+            </telemetryWithDetails>
+            <telemetryWithDetails xmlns="">
+                <telemetry>
+                    <coordX>-58.0005187988</coordX>
+                    <coordY>-33.2935523987</coordY>
+                    <speed>101</speed>
+                    <date>2023-03-08T12:19:04Z</date>
+                    <glonass>0</glonass>
+                    <gpsCode>867604051108653</gpsCode>
+                </telemetry>
+                <telemetryDetails>
+                    <sensorCode>sensor45058</sensorCode>
+                    <value>13571796.7098</value>
+                </telemetryDetails>
+            </telemetryWithDetails>
+        </web:storeTelemetryList>
+    </soapenv:Body>
+</soapenv:Envelope>

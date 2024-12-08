@@ -1,0 +1,17 @@
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\bin\Debug\net7.0\CsvMuniplation.exe
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\bin\Debug\net7.0\CsvMuniplation.deps.json
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\bin\Debug\net7.0\CsvMuniplation.runtimeconfig.json
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\bin\Debug\net7.0\CsvMuniplation.dll
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\bin\Debug\net7.0\CsvMuniplation.pdb
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.AssemblyInfoInputs.cache
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.AssemblyInfo.cs
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.dll
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\refint\CsvMuniplation.dll
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.pdb
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.genruntimeconfig.cache
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\ref\CsvMuniplation.dll
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\bin\Debug\net7.0\CsvHelper.dll
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job12\CsvMuniplation\CsvMuniplation\obj\Debug\net7.0\CsvMuniplation.csproj.CopyComplete

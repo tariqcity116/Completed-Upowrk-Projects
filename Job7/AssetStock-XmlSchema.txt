@@ -1,0 +1,70 @@
+<database>
+  <!-- Employee Table -->
+  <table name="Employee">
+    <column name="employee_id" type="integer" primaryKey="true" />
+    <column name="name" type="string" />
+    <column name="position" type="string" />
+    <column name="other_employee_details" type="string" />
+  </table>
+
+  <!-- Asset Table -->
+  <table name="Asset">
+    <column name="asset_id" type="integer" primaryKey="true" />
+    <column name="employee_id" type="integer" foreignKey="Employee.employee_id" />
+    <column name="asset_name" type="string" />
+    <column name="asset_description" type="string" />
+    <column name="other_asset_details" type="string" />
+  </table>
+
+  <!-- Product Table -->
+  <table name="Product">
+    <column name="product_id" type="integer" primaryKey="true" />
+    <column name="name" type="string" />
+    <column name="description" type="string" />
+    <column name="price" type="decimal" />
+    <column name="other_product_details" type="string" />
+  </table>
+
+  <!-- Order Table -->
+  <table name="Order">
+    <column name="order_id" type="integer" primaryKey="true" />
+    <column name="employee_id" type="integer" foreignKey="Employee.employee_id" />
+    <column name="product_id" type="integer" foreignKey="Product.product_id" />
+    <column name="order_date" type="date" />
+    <column name="quantity" type="integer" />
+  </table>
+
+  <!-- Admin Table -->
+  <table name="Admin">
+    <column name="admin_id" type="integer" primaryKey="true" />
+    <column name="name" type="string" />
+    <column name="other_admin_details" type="string" />
+  </table>
+
+  <!-- Product History Table -->
+  <table name="Product_History">
+    <column name="history_id" type="integer" primaryKey="true" />
+    <column name="product_id" type="integer" foreignKey="Product.product_id" />
+    <column name="action" type="string" />
+    <column name="action_date" type="datetime" />
+    <column name="admin_id" type="integer" foreignKey="Admin.admin_id" />
+  </table>
+
+  <!-- Stock Table -->
+  <table name="Stock">
+    <column name="stock_id" type="integer" primaryKey="true" />
+    <column name="product_id" type="integer" foreignKey="Product.product_id" />
+    <column name="quantity" type="integer" />
+    <column name="date_added" type="date" />
+    <column name="admin_id" type="integer" foreignKey="Admin.admin_id" />
+  </table>
+
+  <!-- Bill Table -->
+  <table name="Bill">
+    <column name="bill_id" type="integer" primaryKey="true" />
+    <column name="employee_id" type="integer" foreignKey="Employee.employee_id" />
+    <column name="total_amount" type="decimal" />
+    <column name="date_issued" type="date" />
+    <column name="admin_id" type="integer" foreignKey="Admin.admin_id" />
+  </table>
+</database>

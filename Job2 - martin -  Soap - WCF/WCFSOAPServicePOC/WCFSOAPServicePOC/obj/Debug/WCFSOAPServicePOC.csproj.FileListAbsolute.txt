@@ -1,0 +1,12 @@
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\obj\Debug\WCFSOAPServicePOC.csproj.AssemblyReference.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\obj\Debug\WCFSOAPServicePOC.csproj.CoreCompileInputs.cache
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\bin\WCFSOAPServicePOC.dll.config
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\bin\WCFSOAPServicePOC.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\bin\WCFSOAPServicePOC.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\bin\System.ServiceModel.Primitives.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\bin\System.ServiceModel.Security.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\bin\System.ServiceModel.Primitives.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\bin\System.ServiceModel.Security.pdb
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\obj\Debug\WCFSOAPServicePOC.csproj.CopyComplete
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\obj\Debug\WCFSOAPServicePOC.dll
+D:\Tariq-private\work\Job2 - martin -  Soap - WCF\WCFSOAPServicePOC\WCFSOAPServicePOC\obj\Debug\WCFSOAPServicePOC.pdb

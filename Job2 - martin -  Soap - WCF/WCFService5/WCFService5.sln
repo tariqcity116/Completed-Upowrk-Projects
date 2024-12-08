@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFService5", "WCFService5\", "{6153B098-2F94-4B7D-9E29-C98F2C3A0069}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53142"
+		Debug.AspNetCompiler.PhysicalPath = "WCFService5\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53142\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53142"
+		Release.AspNetCompiler.PhysicalPath = "WCFService5\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53142\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53142"
+		SlnRelativePath = "WCFService5\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6153B098-2F94-4B7D-9E29-C98F2C3A0069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6153B098-2F94-4B7D-9E29-C98F2C3A0069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93AC57A4-490E-4976-9357-ECE8F6EDD22A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TaskSorter-Net5/1.0.0": {
+        "runtime": {
+          "TaskSorter-Net5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskSorter-Net5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
